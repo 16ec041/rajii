@@ -5,7 +5,7 @@ public class Naturalno
  {
         Scanner scanner = new Scanner(System.in);
         int n;
-        System.out.println("enter the value of n:")
+        System.out.println("enter the value of n:"+ scanner.nextInt())
         int  sum = 0;
         for(int i = 1; i <= num; ++i)
         {
@@ -13,3 +13,5 @@ public class Naturalno
         }
 
         System.out.println("Sum = " + sum);
+    }
+}
