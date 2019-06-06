@@ -1,5 +1,5 @@
-s=input("enter the string:")
-k=int(input("enter the value:"))
-for i in range(k):
-     print (s)
+S=str(input(""))
+k=int(input(""))
+for i in range (k):
+    print(S)
      
