@@ -1,5 +1,3 @@
-S=str(input(""))
-k=int(input(""))
-for i in range (k):
+S,K=map(str,input("").split())
+for i in range(int(K)):
     print(S)
-     
