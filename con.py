@@ -1,3 +1,3 @@
-s1,s2=map(str,input("").split())
-s3=s1 + s2
-print (s3)
+r1,r2=map(str,input("").split())
+r3=r1 + r2
+print (r3)
