@@ -1,8 +1,9 @@
-s="hello"
-r="world"
-if s<r:
-    print(r)
-elif s>r:
-    print(s)
+a,b=map(str,input("").split())
+s1=len(a)
+s2=len(b)
+if(s1>s2):
+    print(a)
+elif(s1<s2):
+    print(b)
 else:
-    print(s)
+    print(b)
