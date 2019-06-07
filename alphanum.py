@@ -1,11 +1,11 @@
-S=input()
-a=b=0;
-for i in S:
+E=input()
+m=r=0;
+for i in E:
     if i.isalpha():
-        b+=1 
+        r+=1 
     elif i.isnumeric():
-        a+=1 
-if(a>=1 and b>=1):
+        m+=1 
+if(m>=1 and r>=1):
     print("Yes")
 else:
     print("No")
